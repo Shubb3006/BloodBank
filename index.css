@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    opacity: 0.5;
+    left: 0px;
+}
+.heading{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.img img{
+    height: 50px;
+    margin: 10px 10px;
+}
+.heading .text {
+    margin: 10px 10px;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+}
+.tags button{
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 15px;
+    margin: 10px;
+}
+.tags button a{
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+.tags button:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.tags button a:hover{
+    color: white;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 26px;
+
+}
+.body button{
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 15px;
+    margin: 10px;
+}
+.body button a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.body button:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.body button a:hover{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    width: 15%;
+    margin: auto;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn2{
+    width: 15%;
+    margin: auto;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+    color: white;
+}
